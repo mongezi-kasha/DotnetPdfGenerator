@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "6dbcd130-7f08-4afa-adfd-d8671724ac68",
+		"name": "PDFGeneration",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30051056"
+	},
+	"item": [
+		{
+			"name": "GeneratePdf",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n    \"memberId\":1,\r\n    \"firstName\": \"Sive\",\r\n    \"lastName\": \"Manyube\",\r\n    \"role\":\"singer\",\r\n   \"departments\":{\r\n        \"name\":\"Guild\"\r\n    }\r\n},\r\n{\r\n    \"memberId\":2,\r\n    \"firstName\": \"Mongezi\",\r\n    \"lastName\": \"Kasha\",\r\n    \"role\":\"Singer\",\r\n    \"departments\":{\r\n        \"name\":\"Guild\"\r\n    }\r\n}\r\n]\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7121/api/ChurchMembers/get-report",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7121",
+					"path": [
+						"api",
+						"ChurchMembers",
+						"get-report"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

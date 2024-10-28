@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <div class="col text-center">
-            <img/>
+            <img src="~/images/logo.png"/>
         </div>
     </div>
     <div class="text-center">
@@ -19,7 +19,7 @@
     </div>
     <table class="table table-stripped mt-5">
         <thead>
-            <th scope="col">ID</th>
+            @* <th scope="col">ID</th> *@
             <th scope="col">First Name</th>
             <th scope="col">Last Name</th>
             <th scope="col">Role</th>
@@ -31,7 +31,7 @@
                 @foreach(var item in Model)
                 {
                     <tr>
-                        <td>@item.MemberId</td>
+                        @* <td>@item.MemberId</td> *@
                         <td>@item.FirstName</td>
                         <td>@item.LastName</td>
                         <td>@item.Role</td>
