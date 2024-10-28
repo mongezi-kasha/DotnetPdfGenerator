@@ -5,7 +5,7 @@
         public int MemberId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public double Salary { get; set; }
+        public string Role { get; set; }
         public ChurchDepartments Departments { get; set; }
     }
 }
