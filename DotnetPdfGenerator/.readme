@@ -1,4 +1,4 @@
-This is a basic asp .net web api to generate a pdf
+This is a basic asp .net 8 web api to generate a pdf
 For the PDF generation we are using puppeteer sharp.
 
 It's staright forward I have attached the postman collection in the repo.
